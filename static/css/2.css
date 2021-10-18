@@ -1,0 +1,16 @@
+.button{
+  color: #333;
+}
+  .button-primary{
+    color: white;
+    background: lightblue;
+  }
+
+/* 
+* Page Style
+* @docs http://turbo.sankuai.com/docs/client.md#style-
+*/
+.myapp{
+  padding: 5%;
+}
+

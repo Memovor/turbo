@@ -1,0 +1,30 @@
+{
+  "name": "turboProject",
+  "version": "0.0.1",
+  "description": "♥ Build with @mtfe/turbo",
+  "main": "index.js",
+  "author": "yi.",
+  "license": "MIT",
+  "dependencies": {
+    "@mtfe/turbo": "next",
+    "@noflux/react": "0.8.x",
+    "react": "16.x",
+    "react-dom": "16.x",
+    "react-loadable": "^5.3.1",
+    "react-router-dom": "^4.2.2",
+    "antd": "^3.2.0"
+  },
+  "scripts": {
+    "start": "turbo start",
+    "build": "turbo build",
+    "debug": "turbo start --inspect",
+    "dev": "turbo start --build --watch",
+    "prod": "node ."
+  },
+  "keywords": [
+    "turbo"
+  ],
+  "devDependencies": {
+    "@mtfe/eslint-config-mtfe": "latest"
+  }
+}

@@ -1,0 +1,9 @@
+/* 
+* Main Style
+* @docs http://turbo.sankuai.com/docs/client.md#style-
+*/
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

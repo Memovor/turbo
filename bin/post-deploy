@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+set -e
+
+$(dirname $0)/setup-nodejs.sh "v8.0.0"
+
+# launch app
+npm run prod

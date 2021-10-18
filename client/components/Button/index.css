@@ -1,0 +1,7 @@
+.button{
+  color: #333;
+  &-primary{
+    color: white;
+    background: lightblue;
+  }
+}

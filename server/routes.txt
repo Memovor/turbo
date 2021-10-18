@@ -1,0 +1,4 @@
+# my routes
+# @docs http://turbo.sankuai.com/docs/router.md
+
+get /login => user#login

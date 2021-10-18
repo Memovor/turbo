@@ -1,0 +1,84 @@
+
+body, #react, .main {
+  height: 100%;
+}
+
+.text{
+  &-left{
+    text-align: left;
+  }
+  &-center{
+    text-align: center;
+  }
+  &-right{
+    text-align: right;
+  }
+}
+
+.main {
+  &-header {
+    height: 48px;
+    line-height: 48px;
+    &-row {
+      height: 100%;
+    }
+    p {
+      color: #fff;
+      margin: 0;
+    }
+  }
+  &-title a {
+    color: #fff;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  &-sider {
+    background-color: #fff;
+    &-menu {
+      height: 100%;
+    }
+  }
+  &-content{
+    padding: 20px;
+  }
+}
+
+.user {
+  text-align: right;
+  * {
+    cursor: pointer;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+  }
+  &-out {
+    height: 45px;
+    display: inline-block;
+  }
+  &-avatar {
+    background-color: #87d068;
+    margin-right: 0.5rem;
+  }
+  &-name {
+    display: inline-block;
+  }
+  &-dir {
+    color: #fff;
+    font-size: 1rem !important;
+    vertical-align: middle;
+  }
+}
+
+.result {
+  background-color: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+.ant-btn {
+  margin: 5px;
+}

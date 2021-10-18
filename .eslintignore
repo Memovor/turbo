@@ -1,0 +1,10 @@
+# common
+.vscode
+.nyc_output
+coverage
+
+#turbo
+config
+static
+bin
+thrift
